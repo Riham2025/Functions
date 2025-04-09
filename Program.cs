@@ -59,6 +59,15 @@ namespace Functions
                     Console.WriteLine(result);
 
                     break;
+
+                case 2:
+                    Console.WriteLine("Enter Three Numbers");
+                    double num2 = double.Parse(Console.ReadLine());
+                    double num3 = double.Parse(Console.ReadLine());
+                    double num4 = double.Parse(Console.ReadLine());
+                    double result1 = LargestOfThree(num2, num3, num4);
+                    Console.WriteLine("Largest Number is: " + result1);
+                    break;
             }
 
 
