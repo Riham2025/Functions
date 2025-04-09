@@ -67,6 +67,7 @@ namespace Functions
                     double num4 = double.Parse(Console.ReadLine());
                     double result1 = LargestOfThree(num2, num3, num4);
                     Console.WriteLine("Largest Number is: " + result1);
+
                     break;
             }
 
