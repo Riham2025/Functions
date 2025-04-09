@@ -40,6 +40,13 @@ namespace Functions
             }
             return result;
         }
+
+        // Temperature Converter
+        public static double CelsiusToFahrenheit(double celsius)
+        {
+            double fahrenheit = (celsius * 9 / 5) + 32;
+            return fahrenheit;
+        }
         static void Main(string[] args)
         
         {
