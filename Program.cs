@@ -33,14 +33,19 @@ namespace Functions
 
             switch (choice)
             {
-                case1:
-            Console.WriteLine("Enter The Number");
-            int num1 = int.Parse(Console.ReadLine());
-            string result = EvenOdd(num1);
-            Console.WriteLine(result); }
+                case 1:
+                    Console.WriteLine("Enter The Number");
+                    int num1 = int.Parse(Console.ReadLine());
+                    string result = EvenOdd(num1);
+                    Console.WriteLine(result);
+
+                    break;
+            }
 
         }
-    }    }    
+ 
+    }    
+}    
                     
         
         
