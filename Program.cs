@@ -49,6 +49,12 @@ namespace Functions
         }
 
         //. Simple Discount Calculator
+        public static double CalculateDiscount(double originalPrice, double discountPercentage)
+        {
+            double discountAmount = (originalPrice * discountPercentage) / 100;
+            double finalPrice = originalPrice - discountAmount;
+            return finalPrice;
+        }
         static void Main(string[] args)
         
         {
@@ -58,6 +64,7 @@ namespace Functions
             Console.WriteLine("1. Even or Odd ");
             Console.WriteLine("2. Largest of Three Numbers  ");
             Console.WriteLine("3. Celsius to Fahrenheit ");
+            Console.WriteLine("4. Simple Discount Calculator ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) //add function
@@ -84,6 +91,14 @@ namespace Functions
                     double celsius = double.Parse(Console.ReadLine());
                     double fahrenheit = CelsiusToFahrenheit(celsius);
                     Console.WriteLine("Temperature in Fahrenheit: " + fahrenheit);
+                    break;
+                    case 4:
+                    Console.WriteLine("Enter Original Price");
+                    double originalPrice = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter Discount Percentage");
+                    double discountPercentage = double.Parse(Console.ReadLine());
+                    double finalPrice = CalculateDiscount(originalPrice, discountPercentage);
+                    Console.WriteLine("Final Price after Discount: " + finalPrice);
                     break;
 
             }
