@@ -25,13 +25,13 @@ namespace Functions
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
+           
             Console.WriteLine("Enter the number of operation:");
             Console.WriteLine("1. Even or Odd ");
             Console.WriteLine("2. Largest of Three Numbers  ");
             int choice = int.Parse(Console.ReadLine());
 
-            switch (choice)
+            switch (choice) //add function
             {
                 case 1:
                     Console.WriteLine("Enter The Number");
