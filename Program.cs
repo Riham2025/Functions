@@ -5,6 +5,7 @@ namespace Functions
     internal class Program
     {
         public static string EvenOdd(int num1)
+        // Even or Odd function
         {
             int result;
             result = num1 % 2;
@@ -22,8 +23,9 @@ namespace Functions
 
 
         }
+        public static double LargestOfThree(double num1, double num2, double num3) { }
         static void Main(string[] args)
-        // Even or Odd function
+        
         {
             Console.WriteLine("Hello, World!");
            
