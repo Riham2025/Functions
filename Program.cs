@@ -55,6 +55,7 @@ namespace Functions
             Console.WriteLine("Enter the number of operation:");
             Console.WriteLine("1. Even or Odd ");
             Console.WriteLine("2. Largest of Three Numbers  ");
+            Console.WriteLine("3. Celsius to Fahrenheit ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) //add function
