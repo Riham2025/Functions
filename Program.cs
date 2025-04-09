@@ -9,35 +9,41 @@ namespace Functions
             int result;
             result = num1 % 2;
 
-            if (result == 0) {
-                {
-                    return "The Number is Even";
-                } 
+            if (result == 0)
+            {
+                return "The Number is Even";
+            }
 
-               else  
+            else
 
-                {
-                    return "The Number is Odd";
-                }
+            {
+                return "The Number is Odd";
+            }
 
 
         }
         static void Main(string[] args)
-            {
-                Console.WriteLine("Hello, World!");
-                Console.WriteLine("Hello, World!");
-                Console.WriteLine("Enter the number of operation:");
-                Console.WriteLine("1. Even or Odd ");
-                Console.WriteLine("2. Largest of Three Numbers  ");
-                int choice = int.Parse(Console.ReadLine());
+        {
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Enter the number of operation:");
+            Console.WriteLine("1. Even or Odd ");
+            Console.WriteLine("2. Largest of Three Numbers  ");
+            int choice = int.Parse(Console.ReadLine());
 
-                switch (choice) {
-                    case1:
-                Console.WriteLine("Enter The Number");
-                int num1 = int.Parse(Console.ReadLine());
-                string result = EvenOdd(num1);
-                Console.WriteLine(result);
-            }
-            }  
-    }
-}
+            switch (choice)
+            {
+                case1:
+            Console.WriteLine("Enter The Number");
+            int num1 = int.Parse(Console.ReadLine());
+            string result = EvenOdd(num1);
+            Console.WriteLine(result); }
+
+        }
+    }    }    
+                    
+        
+        
+       
+
+
