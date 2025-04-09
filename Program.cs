@@ -23,7 +23,7 @@ namespace Functions
 
         }
         static void Main(string[] args)
-            //task one
+        // Even or Odd function
         {
             Console.WriteLine("Hello, World!");
            
@@ -42,6 +42,8 @@ namespace Functions
 
                     break;
             }
+
+
 
         }
  
