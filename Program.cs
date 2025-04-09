@@ -76,6 +76,13 @@ namespace Functions
                     Console.WriteLine("Largest Number is: " + result1);
 
                     break;
+                case 3:
+                    Console.WriteLine("Enter Temperature in Celsius");
+                    double celsius = double.Parse(Console.ReadLine());
+                    double fahrenheit = CelsiusToFahrenheit(celsius);
+                    Console.WriteLine("Temperature in Fahrenheit: " + fahrenheit);
+                    break;
+
             }
 
 
