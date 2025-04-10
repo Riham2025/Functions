@@ -189,7 +189,7 @@ namespace Functions
                     Console.WriteLine(result2);
                     break;
 
-                // Days to Weeks and Days Converter 
+                
                 case 7:
                     int UserDays;
                     Console.WriteLine("Enter the number of days :\n");
