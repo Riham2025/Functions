@@ -101,6 +101,7 @@ namespace Functions
             Console.WriteLine("3. Celsius to Fahrenheit ");
             Console.WriteLine("4. Simple Discount Calculator ");
             Console.WriteLine("5. Grading System ");
+            Console.WriteLine("6. Swap Two Numbers  ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) //add function
