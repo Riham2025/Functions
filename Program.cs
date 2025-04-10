@@ -189,6 +189,23 @@ namespace Functions
                     Console.WriteLine(result2);
                     break;
 
+                // Days to Weeks and Days Converter 
+                case 7:
+                    int UserDays;
+                    Console.WriteLine("Enter the number of days :\n");
+                    UserDays = int.Parse(Console.ReadLine());
+
+                    break;
+                // Electricity Bill Calculator
+                case 8:
+
+                    break;
+
+                // Simple Calculator 
+                case 9:
+
+                    break;
+
 
 
 
