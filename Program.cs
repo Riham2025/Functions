@@ -142,7 +142,7 @@ namespace Functions
                     double fahrenheit = CelsiusToFahrenheit(celsius);
                     Console.WriteLine("Temperature in Fahrenheit: " + fahrenheit);
                     break;
-                    case 4:
+                case 4:
                     Console.WriteLine("Enter Original Price");
                     double originalPrice = double.Parse(Console.ReadLine());
                     Console.WriteLine("Enter Discount Percentage");
@@ -160,9 +160,17 @@ namespace Functions
 
                 case 6:
 
-                    double num4;
+                    
                     double num5;
-                    Console.WriteLine("Enter first number"
+                    Console.WriteLine("Enter first number");
+                    num1 = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter the second number");
+                    num2 = int.Parse(Console.ReadLine());
+
+                    string res = SwapTwoNumbers(num1, num2);
+                    printValue(res.ToString());
+                    break;
 
 
 
