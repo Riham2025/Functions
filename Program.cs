@@ -92,7 +92,14 @@ namespace Functions
         // Swap Two Numbers 
         public static string SwapTwoNumbers(double num1, double num2)
         {
+            double hold;
 
+            hold = num1;
+            num1 = num2;
+            num2 = hold;
+
+            string massege = "First number is " + num1 + "Second number is " + num2;
+            return massege;
         }
 
 
