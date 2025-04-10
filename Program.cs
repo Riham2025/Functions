@@ -98,6 +98,7 @@ namespace Functions
             Console.WriteLine("2. Largest of Three Numbers  ");
             Console.WriteLine("3. Celsius to Fahrenheit ");
             Console.WriteLine("4. Simple Discount Calculator ");
+            Console.WriteLine("5. Grading System ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) //add function
