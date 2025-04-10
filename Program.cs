@@ -136,6 +136,13 @@ namespace Functions
                     break;
 
                 case 5:
+                    Console.WriteLine("Enter Marks");
+                    double marks = double.Parse(Console.ReadLine());
+                    string grade = GetGrade(marks);
+                    Console.WriteLine("Grade: " + grade);
+                    break;
+
+
 
             }
 
