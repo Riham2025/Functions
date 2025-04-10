@@ -135,6 +135,8 @@ namespace Functions
                     Console.WriteLine("Final Price after Discount: " + finalPrice);
                     break;
 
+                case 5:
+
             }
 
 
