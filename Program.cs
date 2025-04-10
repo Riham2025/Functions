@@ -160,6 +160,10 @@ namespace Functions
 
                 case 6:
 
+                    double num4;
+                    double num5;
+                    Console.WriteLine("Enter first number"
+
 
 
             }
