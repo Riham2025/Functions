@@ -168,9 +168,14 @@ namespace Functions
                     Console.WriteLine("Enter the second number");
                     num2 = int.Parse(Console.ReadLine());
 
-                    string res = SwapTwoNumbers(num1, num2);
-                    printValue(res.ToString());
+                    Console.WriteLine(
+                        "Before Swapping: First number is " + num1 + " Second number is " + num2);
+                    string result2 = SwapTwoNumbers(num1, num2);
+                    Console.WriteLine(result2);
                     break;
+
+
+
 
 
 
