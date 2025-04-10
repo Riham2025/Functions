@@ -196,7 +196,7 @@ namespace Functions
                     UserDays = int.Parse(Console.ReadLine());
 
                     break;
-                // Electricity Bill Calculator
+                
                 case 8:
 
                     break;
