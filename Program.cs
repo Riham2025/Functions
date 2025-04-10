@@ -110,7 +110,8 @@ namespace Functions
             week = UserDays / 7;
             days = UserDays % 7;
             string massage = week + " weeks and " + days + " days";
-            return massage;
+            return UserDays;
+
 
         }
         public static void printValue(string input)
