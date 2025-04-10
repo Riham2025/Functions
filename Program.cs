@@ -104,12 +104,14 @@ namespace Functions
 
         public static double DaystoWeeksandDaysConverter(int UserDays)
         {
+            // Convert days to weeks and days
             int week;
             int days;
             week = UserDays / 7;
             days = UserDays % 7;
             string massage = week + " weeks and " + days + " days";
             return massage;
+
         }
         public static void printValue(string input)
         {
@@ -201,7 +203,7 @@ namespace Functions
 
                     break;
 
-                // Simple Calculator 
+                 
                 case 9:
 
                     break;
