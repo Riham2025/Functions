@@ -158,6 +158,8 @@ namespace Functions
                     Console.WriteLine("Grade: " + grade);
                     break;
 
+                case 6:
+
 
 
             }
