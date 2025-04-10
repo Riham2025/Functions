@@ -102,6 +102,21 @@ namespace Functions
             return massege;
         }
 
+        public static double DaystoWeeksandDaysConverter(int UserDays)
+        {
+            int week;
+            int days;
+            week = UserDays / 7;
+            days = UserDays % 7;
+            string massage = week + " weeks and " + days + " days";
+            return massage;
+        }
+        public static void printValue(string input)
+        {
+            Console.WriteLine("the result of this operation is: " + input);
+        }
+
+
 
         static void Main(string[] args)
         
